@@ -47,6 +47,25 @@ body {
   font-size: 18px;
   font-family: josefin;
   font-weight: 400;
+  display: flex;
+  justify-content: space-between;
+  /* justify-items:; */
+  align-items: center;
+  border: 1px solid black;
+}
+.left-icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: seagreen; */
+}
+.check {
+  width: 330px;
+  height: 30px;
+  font-size: 15px;
 }
 .learn {
   padding: 20px;
@@ -56,6 +75,11 @@ body {
   /* border: none; */
   font-family: josefin;
   font-weight: 400;
+  display: flex;
+  justify-content: space-between;
+  /* justify-items:; */
+  align-items: center;
+  border: 1px solid black;
 }
 .foot {
   display: flex;
@@ -80,4 +104,9 @@ footer {
   justify-content: center;
   font-family: josefin;
   font-weight: 400;
+}
+.container {
+  border: 1;
+  background-color: grey;
+  color: white;
 }
